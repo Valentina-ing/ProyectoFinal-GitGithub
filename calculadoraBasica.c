@@ -1,3 +1,4 @@
+// Valentina Arce, Santiago scarel, Valentin Baigorria
 #include <stdio.h>
 
 int sumar(int a, int b);
@@ -23,7 +24,7 @@ int main() {
                 resultado = sumar(num1, num2);
                 printf("Resultado de la suma: \n\n",resultado);
                 break;
-
+//conflicto en hacer merge y pull
             case 2:
                 resultado = restar(0, 0);
                 printf("Resultado de la resta: \n\n");
