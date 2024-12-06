@@ -25,11 +25,7 @@ int main() {
                 break;
 
             case 2:
-                printf("Ingrese el primer numero:\n");
-                scanf("%d",&num1);
-                printf("Ingrese el  segundo numero:\n");
-                scanf("%d",&num2);
-                resultado = restar(num1,num2);
+                resultado = restar(0, 0);
                 printf("Resultado de la resta: \n\n");
                 break;
 
@@ -55,17 +51,10 @@ int sumar(int a, int b) {
 }
 
 int restar(int a, int b) {
-    int rest;
-    rest=(a-b);
-    return rest;
+    return 0;
 }
 
 int multiplicar(int a, int b) {
-<<<<<<< HEAD
-    return 0;
-}
-=======
     int res= a*b;
     return res;
 }
->>>>>>> nuevarama
