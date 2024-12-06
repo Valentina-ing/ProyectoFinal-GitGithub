@@ -18,8 +18,10 @@ int main() {
         scanf("%d", &opcion);
         switch (opcion) {
             case 1:
-                resultado = sumar(0, 0);
-                printf("Resultado de la suma: \n\n");
+            printf("ingrese los valores a sumar:\n");
+            scanf("%d", &num1);scanf("%d", &num1);
+                resultado = sumar(num1, num2);
+                printf("Resultado de la suma: \n\n",resultado);
                 break;
 
             case 2:
@@ -43,7 +45,7 @@ int main() {
 }
 
 int sumar(int a, int b) {
-    return 0;
+    return a+b;
 }
 
 int restar(int a, int b) {
