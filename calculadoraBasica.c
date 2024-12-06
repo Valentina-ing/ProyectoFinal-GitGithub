@@ -28,8 +28,10 @@ int main() {
                 break;
 
             case 3:
+                printf "ingrese numeros";
+                scanf ("%d", &num1); scanf("%d", &num2);
                 resultado = multiplicar(num1, num2);
-                printf("Resultado de la multiplicacion: \n\n");
+                printf("Resultado de la multiplicacion: %d\n", resultado);
                 break;
             case 4:
                 printf("Saliendo de la calculadora...\n\n");
@@ -51,5 +53,6 @@ int restar(int a, int b) {
 }
 
 int multiplicar(int a, int b) {
-    return 0;
+    int res= a*b;
+    return res;
 }
